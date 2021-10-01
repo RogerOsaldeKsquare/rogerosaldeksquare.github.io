@@ -87,6 +87,7 @@ displayIntroduction()
 ```
 
 ***Output: My name is Joana, I'm from Brazil and I speak brazillian Portuguese***
+
 We can have an infinity of closures within a function, as long as we respect its hierarchy and remember its order.
 
 ## They are conflicts between the closure and the global scope? 

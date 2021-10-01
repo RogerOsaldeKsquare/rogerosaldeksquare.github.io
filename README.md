@@ -4,20 +4,25 @@
 ## What is a closure? 
 
 A closure is a function that saves references to the adjacent state (lexical scope). In other words, a closure allows the scope of an outer function to be accessed from an inner function. In JavaScript, closures are created every time a function is created.
-•	Give me an example of closure. 
-•	function counter(){
-•	    var count = 5;
-•	    
-•	    function incrementCounterBy1(){
-•	        console.log(count)
-•	    }
-•	
-•	    return incrementCounterBy1
-•	}
-•	
-•	const incrementCounterBy1 = counter()
-•	
-•	incrementCounterBy1()
+
+## Give me an example of closure. 
+
+```
+function counter(){
+var count = 5;
+
+function incrementCounterBy1(){
+ console.log(count)
+ }
+	
+ return incrementCounterBy1
+}
+
+const incrementCounterBy1 = counter()
+
+incrementCounterBy1()
+
+```
 
 ## What is ()() in code? 
 

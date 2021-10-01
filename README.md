@@ -1,6 +1,7 @@
 # rogerosaldeksquare.github.io
 
-
+	<h1>Activity 2 from Unit 3</h1>
+    
 •	What is a closure? 
 A closure is a function that saves references to the adjacent state (lexical scope). In other words, a closure allows the scope of an outer function to be accessed from an inner function. In JavaScript, closures are created every time a function is created.
 •	Give me an example of closure. 
